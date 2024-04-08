@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.home{
+    color: black;
+    font-weight: 500;
+}   
+
+nav ul li a{
+    text-decoration: none;
+    color: #9DADBE;
+    font-size: 14px;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+
+.head{
+    display: flex;
+    gap: 50px;
+}
+
+.icons{
+    display: flex;
+    gap: 12px;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+i{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa-brands fa-youtube{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.home-main-text{
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.solid-wood{
+    color: #38CB89;
+}
+
+.home-just-text{
+    font-size: 16px;
+}
+
+.home-btn{
+    width: 330px;
+    height: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+}
+
+.home-all-text{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.home-img{
+    width: 610px;
+    height: 500px;
+    background-size: cover;
+}
+
+
+.home-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 95vh;
+}
+
+
+
+
+
+
+.foot{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+
+.foot-logo{
+    color: white;
+}
+
+.foo{
+    display: flex;
+    gap: 50px;
+}
+
+.toof{
+    list-style: none;
+}
+
+.toof a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.design{
+    color: white;
+    font-size: 14px;
+}
+
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foot-text{
+    color: white;
+    font-size: 14px;
+}
+
+.footer2{
+    display: flex;
+    gap: 18px;
+}
+
+.social{
+    display: flex;
+    gap: 12px;
+}
+
+.foot2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 620px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+@media (max-width:900px) {
+    .navbar{
+        flex-wrap: wrap;
+    }
+    .home-page{
+        flex-wrap: wrap;
+    }
+    .foot{
+        flex-wrap: wrap;
+    }
+}
